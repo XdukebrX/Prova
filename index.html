@@ -11,20 +11,38 @@
 <body>
     <div class="container">
         
-            <form action="post" class="border">
+            <form action="post" >
                 
-                <h4>pesonal data</h4>
+               
                     <div class="mb-3">
                     <label for="Name" class="form-label">Name </label>
-                    <input type="Name" class="form-control" id="Name" aria-describedby="NameHelp">
+                    <input type="Name" class="form-control" id="Name" aria-describedby="Name">
                 
                     </div>
                     <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="datanasc" class="form-label">Data de nascimento</label>
+                    <input type="date" class="form-control" id="datanasc">
                     </div>
-            
-                <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sextype">
+                        <label class="form-check-label" for="sextype">
+                          Mulher
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sextype" checked>
+                        <label class="form-check-label" for="sextype">
+                           Homem
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="sextype" checked>
+                        <label class="form-check-label" for="sextype">
+                           Helicóptero de ataque
+                        </label>
+                      </div>
+                      <Hr></Hr>
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
             </form>
         </span> 
     </div>

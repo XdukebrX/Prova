@@ -6,4 +6,10 @@ body{
 
 }
 
+#border{
 
+    border-radius: 200px;
+    border-color: black;
+
+
+}
